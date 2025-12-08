@@ -140,7 +140,7 @@ cp .env.example .env
 - Place `world_bank_data_updated.db` in the `data/` directory
 - Place `Worldbankfewshots.json` in the `data/` directory
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
