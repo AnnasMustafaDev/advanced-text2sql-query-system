@@ -1,11 +1,11 @@
-# World Bank SQL Agent 🌍
+# World Bank SQL Agent 
+An advanced AI-powered natural language interface for querying World Bank databases using LangChain, OpenAI, and semantic search techniques.
 
-
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an intelligent SQL agent that allows users to query World Bank data using natural language. The system combines multiple AI components including few-shot learning, retrieval-augmented generation (RAG), and multi-model coordination to provide accurate, context-aware responses.
 
-## 🚀 Key Features
+## Key Features
 
 ### Advanced AI Components
 
@@ -59,7 +59,7 @@ This project implements an intelligent SQL agent that allows users to query Worl
 - Multi-tool coordination (SQL queries, schema inspection)
 - Verbose logging for debugging and monitoring
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Query
@@ -81,7 +81,7 @@ User Query
 Final Answer
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 world-bank-sql-agent/
@@ -100,7 +100,7 @@ world-bank-sql-agent/
     └── Worldbankfewshots.json
 ```
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **LLM Framework**: LangChain
 - **Models**: OpenAI GPT-4o, GPT-4o-mini
@@ -111,7 +111,7 @@ world-bank-sql-agent/
 - **ML**: Scikit-learn for TF-IDF and cosine similarity
 - **Data Processing**: Pandas, NumPy
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -201,14 +201,14 @@ DEFAULT_LIMIT=150
 - **Caching**: FAISS vector store for fast semantic search
 - **Query Limits**: Configurable result limits to prevent over-fetching
 
-## 🔐 Security
+## Security
 
 - API keys stored in `.env` (not committed to git)
 - SQL injection prevention via LangChain SQL toolkit
 - Read-only database queries (no DML operations)
 - Input validation and sanitization
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run with example query
@@ -220,35 +220,35 @@ if __name__ == "__main__":
     main(query)
 ```
 
-## 📝 Database Schema
+##  Database Schema
 
 The system works with World Bank data containing:
 - **12 columns**: id, indicator_id, indicator_name, indicator_description, country_id, country_name, country_region, country_incomelevel, country_lendingtype, year, value, unitofmeasure
 - **Time Range**: 2015 onwards
 - **Coverage**: Multiple countries, regions, and economic indicators
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Your Name**
 - GitHub: [@AnnasMustafaDev](https://github.com/AnnasMustafaDev)
 - LinkedIn: [Annas Mustafa](https://linkedin.com/in/annas-mustafa)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - World Bank for providing comprehensive economic data
 - OpenAI for GPT models
 - LangChain community for excellent documentation
 - FAISS for efficient vector similarity search
 
-## 📈 Project Complexity
+##  Project Complexity
 
 This project demonstrates **senior-level AI engineering skills** including:
 
