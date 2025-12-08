@@ -193,7 +193,7 @@ TOP_N_INDICATORS=5
 DEFAULT_LIMIT=150
 ```
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 - **Token Usage**: Monitored via OpenAI callbacks
 - **Search Speed**: TF-IDF provides <100ms indicator search
