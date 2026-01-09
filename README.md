@@ -1,4 +1,4 @@
-# Advance Text SQL Agent 
+# Advance Text-to-SQL Agent 
 An  AI-powered natural language interface for querying World Bank databases using LangChain, OpenAI, and semantic search techniques.
 
 ## Project Overview
